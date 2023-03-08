@@ -1,10 +1,11 @@
 const Contact = () => {
   return (
-    <div className="main relative w-[1920px] h-[1665px]">
+    <div className="main bg-[#FFFFFF] relative w-[1920px] h-[1665px]">
       <div className="hero w-[960px] h-[1080px]">
         <div className="absolute top-0	left-0"><img src="image.jpg" /></div>
         <div className="absolute w-[577px] h-[154px] top-[212px] left-[160px] flex items-center text-[64px] leading-[77px]
         text-[#1A1A1A] font-medium	">Create Experiences That Matters!</div>
+      
       
         <div className="absolute w-[227px] h-[43px] top-[246px] left-[1021px] flex items-center text-[36px] leading-[43.2px]
         text-[#1A1A1A] font-medium	" >Let’s Connect</div>
