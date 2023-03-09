@@ -25,6 +25,19 @@ input:focus{
 select:focus{
   outline: none;
 }
+input, select{
+  background-color: transparent;
+}
+input[type=file] {
+    color: transparent !important;
+    outline: none;
+}
+input::file-selector-button {
+    background-color: transparent;
+  border: none;
+  color: #FFFFFF;
+   display: none;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
