@@ -19,7 +19,12 @@ a {
 * {
   box-sizing: border-box;
 }
-
+input:focus{
+    outline: none;
+}
+select:focus{
+  outline: none;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
